@@ -3,7 +3,7 @@ import random
 import os, sys
 
 # This is the absolute path to the source text.
-file_path = os.path.join(sys.path[0], "source_text.txt")
+file_path = os.path.join(sys.path[0], "JaneEyre_text.txt")
 with open(file_path, encoding="utf-8") as f:
     text = f.read()
 
